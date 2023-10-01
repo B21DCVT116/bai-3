@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>thẻ iframe</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.2926381717452!2d105.78486297535396!3d20.98090348065646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135accdd8a1ad71%3A0xa2f9b16036648187!2zSOG7jWMgdmnhu4duIEPDtG5nIG5naOG7hyBCxrB1IGNow61uaCB2aeG7hW4gdGjDtG5n!5e0!3m2!1svi!2s!4v1696134446171!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <hr>
+    <h2>thẻ form</h2>
+    <form action="" target="_self" method="POST" autocomplete="on" novalidate="off">
+        <label for="fullname"> <b>Họ tên:</b></label>
+        <input type="text" name="fullname" id="fullname">
+        <br>
+        <label for="email"><i>Email:</i></label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password"><b><i>Password</i></b></label>
+        <input type="password" name="pass" id="password">
+        <br>
+        <input type="submit" value="Gửi">
+        <input type="date">
+        <input type="file">
+        <div>
+            <input type="radio" id="nam" value="nam" name="gioitinh">
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" value="nu" name="gioitinh">
+            <label for="nu">Nữ</label>
+        </div>
+        
+        <select>
+            <option value="quan">Quần</option>
+            <option value="ao">Áo</option>
+            <option value="giay">Giày</option>
+        </select>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!-- value là thuộc tính set đầu vào mặc định cho input -->
+    </form>
+    <form action="">
+        <!-- thanh kéo âm lượng -->
+        <input type="range" name="amluong" min="0" max="20" step="2">   
+        <input type="color" name="">
+        <!-- thẻ nút -->
+        <button type="submit">Gửi</button>
+    </form>
+</body>
+</html>
